@@ -1,0 +1,22 @@
+#Footerfirsthalf{
+    background-image: linear-gradient(to right,#16f9c5,#f6f72b);
+    height:40vh;
+    width: 100%;
+}
+#Footersecondhalf{
+    background-color:#172B4D;
+    
+    width: 100%;
+}
+/* #icon{
+    width: 40%;
+} */
+
+#instatxt,#facetxt,#linktxt,#twitxt,#youtxt{
+    display: none;
+}
+#instaicon:hover #instatxt,#faceicon:hover #facetxt,#linkicon:hover #linktxt,#twiticon:hover #twitxt,#youicon:hover #youtxt{
+    
+    display:inline-block;
+
+}
